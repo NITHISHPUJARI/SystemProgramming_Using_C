@@ -4,7 +4,7 @@
 // Union
 union Data
 {
-    int i;        // 1 byte
+    int i;        // 4 byte
     float f;      // 4 bytes
     char str[20]; // 20 bytes
 };
