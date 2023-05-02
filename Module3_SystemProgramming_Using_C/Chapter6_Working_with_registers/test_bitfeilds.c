@@ -19,7 +19,7 @@ struct date
     // so 4 bits are sufficient
     unsigned int Month : 4;
     // Year
-    unsigned int Year; // 4 Bytes
+    unsigned int Year : 16; // 4 Bytes
 };
 
 int main()
